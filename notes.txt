@@ -1,0 +1,10 @@
+# Notes for Favorites button routes
+
+- favbtn on carousel item
+    - on favbtn click, we want it to grab the gbTitle, gbAuthor of carousel item
+    - push title/author to db, assign unique ID to that item
+    - modal popped up "added to favorites!" plus link
+
+- fav page
+    - on fav page, display recently favorited books
+    - "check out what everyone is reading"

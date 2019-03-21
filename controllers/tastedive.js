@@ -4,9 +4,9 @@ var tdApiKey = process.env.TD_API_KEY;
 // //build queryUrl
 var tdQueryUrl =
     //base url with spot to plug in search term from search box
-    "https://tastedive.com/api/similar?q=[[SEARCH_TERM]]" +
+    "https://tastedive.com/api/similar?" +
     //limit type to books and only 10
-    "&type=books&limit=10" +
+    "type=books&limit=10" +
     //plugs in api key
     "&k=" +
     tdApiKey +

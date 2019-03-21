@@ -5,7 +5,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  background-image: url("../img/books-1245690_1920.jpg");
+  /* background-image: url("../img/books-1245690_1920.jpg"); */
+  overflow: auto;
 }
 
 .nav,
@@ -35,18 +36,15 @@ h3 {
 
 
 /* Results Page */
-/* .container {
-  height: 200px !important;
-} */
+
 
 .carousel {
   min-height: 600px;
 }
 
-/* .resp-container {
-  position: relative;
+#details {
   overflow: scroll;
-} */
+}
 
 #fplogo {
   display:block;

@@ -32,5 +32,13 @@ router.post("/book/favorite/:id", function(req, res) {
   });
 });
 
+//testing
+router.post("/book/favorite/", function(req, res) {
+  book.updateOne(req.params.id, function() {
+    res.redirect("/index");
+  });
+});
+
+
 // Export routes
 module.exports = router;
